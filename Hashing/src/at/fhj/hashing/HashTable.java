@@ -156,19 +156,6 @@ public class HashTable {
 	
 	// Place your private methods here
 	// Begin implementation
-	public int hashFunc1(int key, Object obj) {
-		return key % obj.size;
-	}
 
-	public int hashFunc2(int key, Object obj) {
-		return 1 + (key % obj.size - 2);
-	}
-
-	boolean int positionCheck(Object obj){
-	    for(int j = 0; j < obj.size; i++){
-	        if()
-        }
-
-    }
 	// End implementation
 }
